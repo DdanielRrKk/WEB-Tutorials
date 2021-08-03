@@ -1,0 +1,76 @@
+#theform{
+	color:white;
+	display:table;
+	padding:15px;
+	background-color:#2c8f77;
+	border:solid 2px black;
+}
+
+.row{
+	display:table-row;
+}
+
+.row label{
+	display:table-cell;
+	padding:2px;
+	text-align:right;
+}
+
+.row input{
+	display:table-cell;
+	padding:2px;
+}
+
+#left{
+	width:300px;
+	float:left;
+	padding:15px;
+	margin:10px;
+	background-color:#fffffe;
+}
+
+#center{
+	width:300px;
+	float:left;
+	padding:15px;
+	margin:10px;
+	background-color:#ecf1ef;
+}
+
+#right{
+	width:300px;
+	float:left;
+	padding:15px;
+	margin:10px;
+	background-color:#ebece4;
+}
+
+p{
+	color:red;
+}
+
+:not(p){
+	color:darkgreen;
+}
+
+#left, #center, #right{
+	border:solid 2px black;
+}
+
+p[lang="fr"]{
+	background-color:orange;
+}
+
+#right p:nth-child(3n){
+	background-color:orange;
+}
+
+p::first-letter{
+	font-weight:bold;
+	font-size:24px;
+}
+
+p::first-letter{
+	font-weight:bold;
+	font-size:24px;
+}

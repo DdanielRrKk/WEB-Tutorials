@@ -1,0 +1,16 @@
+function changeText(){
+
+	var confirmation=confirm("This changes are permanent");
+	if(confirmation==true){
+		var paragraph=document.getElementsByClassName('para');
+
+		var firstP=paragraph[0].innerHTML;
+		var secondP=paragraph[1].innerHTML;
+
+		var addP=paragraph[2].innerHTML=firstP + secondP;
+
+		var firstP=paragraph[0].innerHTML="";
+		var secondP=paragraph[1].innerHTML="";
+	}
+
+}
